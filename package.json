@@ -1,13 +1,13 @@
 {
   "name": "@nodex-labs/create",
   "version": "0.1.0",
-  "description": "",
+  "description": "The fastest way to scaffold Node.js apps",
   "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nodex-labs/create.git"
   },
-  "keywords": [],
+  "keywords": ["node", "scaffold", "cli"],
   "author": "nodex-labs",
   "license": "MIT",
   "bugs": {
