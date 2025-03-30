@@ -29,13 +29,13 @@ npx @nodex-labs/create
 - **Batteries-included** with best practices pre-configured
 <!-- - **TypeScript-ready** out of the box -->
 
-## 🛠️ Templates
+<!-- ## 🛠️ Templates
 
 | Template          | Command                          | Includes                     |
 |-------------------|----------------------------------|------------------------------|
 | Express Basic     | `--template express-basic`       | Router, error handling       |
 | Express MVC       | `--template express-mvc`         | Models, controllers, routes  |
-| CLI Tool          | `--template cli`                 | Commander + TypeScript       |
+| CLI Tool          | `--template cli`                 | Commander + TypeScript       | -->
 
 <!-- ## 🏗️ Create Custom Templates
 
