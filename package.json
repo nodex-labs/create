@@ -3,9 +3,7 @@
   "version": "0.1.4",
   "description": "The fastest way to scaffold Node.js apps",
   "private": false,
-  "bin": {
-    "nodex": "./bin/cli.js"
-  },
+  "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nodex-labs/create.git"
