@@ -1,6 +1,6 @@
 {
   "name": "@nodex-labs/create",
-  "version": "0.1.3",
+  "version": "0.1.4-experimental.1",
   "description": "The fastest way to scaffold Node.js apps",
   "private": false,
   "bin": {

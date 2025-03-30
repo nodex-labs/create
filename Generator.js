@@ -78,7 +78,7 @@ class Generator {
 
   #mapFrameworks() {
     return this.frameworks.map((framework) => {
-      const name = framework.color.startsWith('#') ? chalk.hex(framework.color).bold(framework.name) : chalk[framework.color].bold(framework.name);
+      const name = framework.color.startsWith('#') ? chalk.hex(framework.color).bold(framework.name) : (chalk[framework.color] || chalk).bold(framework.name);
       return {
         name: name,
         value: framework.value,
