@@ -4,6 +4,9 @@
   "description": "The fastest way to scaffold Node.js apps",
   "private": false,
   "bin": "./bin/cli.js",
+  "scripts": {
+    "postinstall": "npm install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nodex-labs/create.git"
