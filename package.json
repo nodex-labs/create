@@ -1,6 +1,6 @@
 {
   "name": "@nodex-labs/create",
-  "version": "0.1.6-alpha.0",
+  "version": "0.1.6-alpha.1",
   "description": "The fastest way to scaffold Node.js apps",
   "private": false,
   "bin": "./bin/cli.js",
@@ -15,7 +15,7 @@
     "url": "https://github.com/nodex-labs/create/issues"
   },
   "homepage": "https://github.com/nodex-labs/create#readme",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.2",
     "execa": "^9.5.2",
     "inquirer": "^12.5.0"
