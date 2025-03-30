@@ -2,6 +2,7 @@
   "name": "@nodex-labs/create",
   "version": "0.1.0",
   "description": "The fastest way to scaffold Node.js apps",
+  "private": false,
   "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
