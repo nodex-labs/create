@@ -1,5 +1,3 @@
-Here's a **production-ready README.md** for your `@nodex-labs/create` package, designed for maximum clarity and conversion:
-
 <div align="center">
   <img width="80" src="https://github.com/nodex-labs/brand/blob/main/nodex-logo.svg">
   <h1>@nodex-labs/create</h1>
