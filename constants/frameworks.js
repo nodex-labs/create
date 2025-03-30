@@ -6,7 +6,7 @@ const NODE_FRAMWORKS = [
     color: 'green',
   },
   {
-    name: 'Nest.js (Comming soon)',
+    name: 'Nest.js (Coming soon)',
     value: 'nest',
     description: 'Node.js web advanced framework',
     color: '#E32743',
