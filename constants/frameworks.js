@@ -5,6 +5,13 @@ const NODE_FRAMWORKS = [
     description: 'Node.js web minimalistic framework',
     color: 'green',
   },
+  {
+    name: 'Nest.js (Comming soon)',
+    value: 'nest',
+    description: 'Node.js web advanced framework',
+    color: '#E32743',
+    disabled: '🚧 Under development',
+  },
 ];
 
 module.exports = {

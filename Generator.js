@@ -78,14 +78,20 @@ class Generator {
 
   #mapFrameworks() {
     return this.frameworks.map((framework) => {
+      const name = framework.color.startsWith('#') ? chalk.hex(framework.color).bold(framework.name) : chalk[framework.color].bold(framework.name);
       return {
-        name: chalk[framework.color].bold(framework.name),
+        name: name,
         value: framework.value,
       };
     });
   }
 
   #mapTemplates(framework) {
+    if (!this.templates[framework]) {
+      console.log(chalk.yellow.bold(`${framework} framework templates are 🚧 under development`));
+      process.exit(0);
+    }
+
     return this.templates[framework].map((template) => {
       return {
         name: template.name,
