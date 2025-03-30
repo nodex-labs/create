@@ -2,6 +2,7 @@
   "name": "@nodex-labs/create",
   "version": "0.1.0",
   "description": "",
+  "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nodex-labs/create.git"
@@ -12,5 +13,10 @@
   "bugs": {
     "url": "https://github.com/nodex-labs/create/issues"
   },
-  "homepage": "https://github.com/nodex-labs/create#readme"
+  "homepage": "https://github.com/nodex-labs/create#readme",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "execa": "^9.5.2",
+    "inquirer": "^12.5.0"
+  }
 }
