@@ -1,0 +1,16 @@
+{
+  "name": "@nodex-labs/create",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodex-labs/create.git"
+  },
+  "keywords": [],
+  "author": "nodex-labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodex-labs/create/issues"
+  },
+  "homepage": "https://github.com/nodex-labs/create#readme"
+}
