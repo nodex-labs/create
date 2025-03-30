@@ -17,11 +17,9 @@
 Scaffold a new Node.js project in seconds:
 
 ```bash
-npm create @nodex-labs
-# or
-npm init @nodex-labs
-# or 
-npx @nodex-labs/create
+npx create-react-app
+  or
+npm create vite
 ```
 
 ## ✨ Features
