@@ -77,8 +77,29 @@ await scaffold({
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Add templates to `src/templates/`
-3. Submit a PR!
+2. Add templates to your own Github account
+3. Add the package deetails and repo URL to `constants/templates.js` without the `https://github.com/` prefix
+```js
+const EXPRESS_TEMPLATES = [
+  {
+    name: 'Express Basic App',
+    value: 'express-basic',
+    description: 'Basic Express.js project',
+  },
+  {
+    // Template added by you
+    name: 'Express Advanced App',
+    value: 'express-advanced',
+    description: 'Advanced Express.js project',
+  }
+];
+
+const GITHUB_REPO_TEMPLATES = {
+  'express-basic': 'nodex-labs/template-express-basic.git',
+  'express-advanced': 'your-username/template-express-advanced.git', // Your template URL from your Github
+};
+```
+4. Submit a PR!
 
 See our [contribution guide](CONTRIBUTION.md) for details.
 
