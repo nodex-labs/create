@@ -14,7 +14,8 @@
 
 ## 🚀 Quick Start
 
-Scaffold a new Node.js project in seconds:
+**The fastest way to scaffold production-ready Node.js apps**  
+*(Like `create-react-app` or `vite`, but for backend!)*
 
 ```bash
 npx create-react-app
