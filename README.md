@@ -18,9 +18,11 @@
 *(Like `create-react-app` or `vite`, but for backend!)*
 
 ```bash
-npx create-react-app
-  or
-npm create vite
+npm create @nodex-labs
+# or
+npm init @nodex-labs
+# or 
+npx @nodex-labs/create
 ```
 
 ## ✨ Features
