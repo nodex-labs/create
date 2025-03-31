@@ -102,7 +102,7 @@ const GITHUB_REPO_TEMPLATES = {
   'express-advanced': 'your-username/template-express-advanced.git', // Your template URL from your Github
 };
 ```
-4. Submit a PR!
+<!-- 4. Submit a PR! -->
 
 See our [contribution guide](CONTRIBUTION.md) for details.
 
