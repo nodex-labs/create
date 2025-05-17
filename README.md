@@ -81,7 +81,7 @@ await scaffold({
 
 1. Fork the repository
 2. Add templates to your own Github account
-3. Add the package deetails and repo URL to `constants/templates.js` without the `https://github.com/` prefix
+3. Add the package details and repo URL to `constants/templates.js` without the `https://github.com/` prefix
 ```js
 const EXPRESS_TEMPLATES = [
   {
